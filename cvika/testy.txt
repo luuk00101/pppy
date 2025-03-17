@@ -1,0 +1,16 @@
+>>> import math
+>>> from testovanie import obsah_kruhu
+>>> obsah_kruhu(1)
+3.141592653589793
+>>> obsah_kruhu(0)
+0.0
+>>> obsah_kruhu(2)
+12.566370614359172
+>>> obsah_kruhu(-1)
+Traceback (most recent call last):
+...
+ValueError: Polomer nemoze byt zaporny.
+>>> obsah_kruhu("a")
+Traceback (most recent call last):
+...
+ValueError: Polomer nemoze byt retazec.
